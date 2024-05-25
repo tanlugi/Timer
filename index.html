@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div id="base">
+    <h1 id="tempo">Tempo</h1>
+    <h1 id="pessoa">Pessoa</h1>
+    <h1>Horas:</h1>
+    <input type="number" id="horas">
+    <h1>Minutos:</h1>
+    <input type="number" id="minutos">
+    <h1>Segundos:</h1>
+    <input type="number" id="segundos">
+    <br>
+    <h1>Pessoa:</h1>
+    <input type="text" id="nome">
+    <br>
+    <br>
+    <button onclick="transmit(this)">Start</button>
+    <button onclick="transmit2(this)">Stop</button>
+    <button onclick="duplicar()">Duplicar</button>
+    <script src="index.js"></script>
+  </div>
+</body>
+</html>
